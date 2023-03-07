@@ -1,0 +1,13 @@
+.news-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-item {
+  width: 321px;
+  height: 112px;
+  background-color: #fff;
+  text-align: center;
+}

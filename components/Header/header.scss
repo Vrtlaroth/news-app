@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  margin: 0 auto;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+
+  background: linear-gradient(180deg, #bb1e1e 71.29%, #b21919 99.95%);
+  padding: 0 80px;
+  @media (max-width: 768px) {
+    display: none;
+  }
+  button {
+    border-radius: 8px;
+    background-color: white;
+    border: 3px;
+    width: 69px;
+    height: 40px;
+    padding: 5px 5px;
+  }
+  .text {
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    display: inline;
+
+    padding: 5px 5px;
+  }
+}

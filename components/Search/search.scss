@@ -1,0 +1,45 @@
+.maxw {
+  padding-right: 171px;
+  padding-left: 175px;
+}
+
+span {
+  color: #bb1e1e;
+}
+
+h2 {
+  font-weight: bold;
+  padding-right: 43px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+input {
+  width: 725px;
+  height: 50px;
+  border-radius: 10px;
+  background: url(../../src/assets/search.svg) no-repeat left;
+  background-color: #fff;
+}
+
+.search-button {
+  width: 95px;
+  height: 40px;
+  background-color: #bb1e1e;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #bb1e1e;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  font-size: 15px;
+  line-height: 20px;
+}

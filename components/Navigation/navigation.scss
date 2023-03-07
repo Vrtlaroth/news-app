@@ -1,0 +1,29 @@
+.nav-container {
+  height: 429px;
+  width: 63px;
+  padding-top: 60px;
+}
+
+nav {
+  margin-top: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 63px;
+  height: 63px;
+  border-radius: 5px;
+  color: #c8cad1;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #fff;
+  color: red;
+}
